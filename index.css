@@ -8,10 +8,14 @@ nav {
   background-image: linear-gradient(#151655, #1171ee);
   height: 80vh;
   align-items: center;
+  padding: 40px;
+}
+.event {
+  display: flex;
 }
 .icons {
   margin-left: 200px;
-  width: 100px;
+  /* width: 100px; */
   display: flex;
   justify-content: space-between;
   margin-right: 0;
@@ -22,23 +26,74 @@ nav {
 }
 i {
   padding: 10px;
+  /* color: orange; */
+}
+#community {
+  margin-top: -20px;
+  background-color: #2e284a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
 }
 #events {
-  background-color: #1a1a68;
+  background-color: #2e284a;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   height: 200px;
+  padding: 40px;
 }
 #introimage {
   width: 200px;
   height: 200px;
 }
 #nft {
+  padding: 40px;
+
   width: fit-content;
   background-color: #1a1a68;
   border-radius: 10px;
   padding: 10px;
+}
+#roadmap {
+  background-color: #484e94;
+  padding: 40px;
+}
+#faq,
+#bravetigers {
+  background-color: #1a1a68;
+  padding: 40px;
+}
+
+#dropdownMenuButton {
+  background-color: #62679d;
+  width: 80%;
+}
+#details {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 40px;
+}
+.bravetigertext {
+  width: 800px;
+}
+.brave {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+#dropdowns {
+  text-align: center;
+}
+#join {
+  background-color: #686baf;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
 }
 h2 {
   width: fit-content;
@@ -55,17 +110,33 @@ h2 {
   color: white;
   align-items: center;
   text-align: center;
-  background-color: #1a1a68;
+  background-color: #62679d;
+  padding: 40px;
 }
 #intro {
   /* background-color: blue; */
   display: flex;
-  /* margin-top: 10090px; */
+  text-align: center;
+  margin: 120px;
+  margin-top: 150px;
+  justify-content: space-between;
+  padding: 40px;
 }
-/* p {
-  margin-top: 10000px;
-  background-color: red;
-} */
+.title {
+  display: flex;
+  justify-content: space-evenly;
+}
+#footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.description {
+  /* margin-left: 20px; */
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
 @media only screen and (max-width: 600px) {
   .icons {
     margin-left: 0;
