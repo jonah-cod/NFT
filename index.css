@@ -1,5 +1,7 @@
 body {
     color: white;
+    padding: 0;
+    margin: 0;
 }
 
 nav {
@@ -141,13 +143,6 @@ h2 {
     padding: 40px;
 }
 
-#intro {
-    /* display: flex;
-    text-align: center; */
-    justify-content: space-between;
-    height: fit-content;
-}
-
 .title {
     display: flex;
     justify-content: space-evenly;
@@ -172,5 +167,8 @@ h2 {
     .icons {
         margin-left: 0;
         visibility: collapse;
+    }
+    #intro {
+        flex-direction: column !important;
     }
 }
